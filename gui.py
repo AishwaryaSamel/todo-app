@@ -1,6 +1,9 @@
 import time
-import functions
+from function import functions
 import FreeSimpleGUI as sg
+
+#git is a version control system. tracks changes on a local computer.
+#github is a hosting platform. a cloud based service where you upload your code to server to keep it as a backup and collaborate with others
 
 # pip/ pip3 install FreeSimpleGUI on terminal will also install it
 #or else go to pycharm -> preferences -> project name -> interpreter -> + -> FreeSimpleGUI -> install package
@@ -12,7 +15,7 @@ todo_label = sg.Text("Type in a to-do")
 input_box = sg.InputText(tooltip = "Enter a todo", key = "todo")
 add_button = sg.Button("Add")
 
-list_box = sg.Listbox(values=functions.get_todos(), key="todos", enable_events = True, size =[45,10])
+list_box = sg.Listbox(values=functions.get_todos(), key="todos", enable_events = True, size =[45, 10])
 edit_button = sg.Button("Edit")
 complete_button = sg.Button("Complete")
 exit_button = sg.Button("Exit")
@@ -77,6 +80,7 @@ while True:
         case  sg.WIN_CLOSED:
             break
             # exit()
+
 #exit completely stops the program so bye wont be printed. but break will just go out of the loop
 # print("Bye")
 window.close()

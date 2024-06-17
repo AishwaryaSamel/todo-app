@@ -286,7 +286,7 @@
 # print("bye!")
 
 #match replaced with if and added try-except.
-#docstring explined too and also concept of functions with and without arguments.
+#docstring explined too and also concept of function with and without arguments.
 
 # def get_todos(filepath = 'files/todos.txt'):
 #     """read a text file and return the list of to-do items
@@ -386,8 +386,8 @@
 
 #function definition outisde in a seperate file
 # importance of __name__
-# import functions
-# #from functions import get_todos, write_todos
+# import function
+# #from function import get_todos, write_todos
 #
 # while True:
 #     option = input("type add, show/display, edit, complete or exit : ")
@@ -396,13 +396,13 @@
 #     if user_action == "add":
 #
 #         todo = input("Enter a todo : ") + "\n"
-#         todos = functions.get_todos()
+#         todos = function.get_todos()
 #         todos.append(todo)
-#         functions.write_todos(todos)
+#         function.write_todos(todos)
 #
 #     if user_action == "show" or "display":
 #
-#         todos = functions.get_todos()
+#         todos = function.get_todos()
 #
 #         for index,item in enumerate(todos):
 #             item = item.strip('\n')
@@ -410,14 +410,14 @@
 #
 #     if user_action == "edit":
 #
-#         todos = functions.get_todos()
+#         todos = function.get_todos()
 #         number = int(input("enter number todo to edit : "))-1
 #
 #         try:
 #             edited_todo = input("enter edited todo : ")
 #             todos[number] = edited_todo+'\n'
 #
-#             functions.write_todos(todos)
+#             function.write_todos(todos)
 #
 #             print("edit complete")
 #
@@ -435,7 +435,7 @@
 #
 #     if user_action == "complete":
 #
-#         todos = functions.get_todos()
+#         todos = function.get_todos()
 #         mark = int(input("enter number todo to mark as complete : "))-1
 #
 #         try:
@@ -443,7 +443,7 @@
 #             #todos.pop(mark) can also be used
 #             todos.remove(todos[mark])
 #
-#             functions.write_todos(todos)
+#             function.write_todos(todos)
 #
 #             message = f"todo number {mark+1} - {todo_to_remove} marked as complete"
 #             print(message)
@@ -458,7 +458,7 @@
 
 #python.org
 #python datetimme format code
-# import functions
+# import function
 #
 # while True:
 #     option = input("type add, show/display, edit, complete or exit : ")
@@ -467,13 +467,13 @@
 #     if user_action == "add":
 #
 #         todo = input("Enter a todo : ") + "\n"
-#         todos = functions.get_todos()
+#         todos = function.get_todos()
 #         todos.append(todo)
-#         functions.write_todos(todos)
+#         function.write_todos(todos)
 #
 #     if user_action == "show" or "display":
 #
-#         todos = functions.get_todos()
+#         todos = function.get_todos()
 #
 #         for index,item in enumerate(todos):
 #             item = item.strip('\n')
@@ -481,14 +481,14 @@
 #
 #     if user_action == "edit":
 #
-#         todos = functions.get_todos()
+#         todos = function.get_todos()
 #         number = int(input("enter number todo to edit : "))-1
 #
 #         try:
 #             edited_todo = input("enter edited todo : ")
 #             todos[number] = edited_todo+'\n'
 #
-#             functions.write_todos(todos)
+#             function.write_todos(todos)
 #
 #             print("edit complete")
 #
@@ -506,7 +506,7 @@
 #
 #     if user_action == "complete":
 #
-#         todos = functions.get_todos()
+#         todos = function.get_todos()
 #         mark = int(input("enter number todo to mark as complete : "))-1
 #
 #         try:
@@ -514,7 +514,7 @@
 #             #todos.pop(mark) can also be used
 #             todos.remove(todos[mark])
 #
-#             functions.write_todos(todos)
+#             function.write_todos(todos)
 #
 #             message = f"todo number {mark+1} - {todo_to_remove} marked as complete"
 #             print(message)

@@ -1,5 +1,5 @@
 import time
-from functions import functions
+from function import functions
 import FreeSimpleGUI as sg
 
 # pip/ pip3 install FreeSimpleGUI on terminal will also install it

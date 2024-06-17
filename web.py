@@ -1,6 +1,6 @@
 #we are using streamlit library. easy to create webpps, intuitive, easy to integrate with graphs. so easy to make graphs and data.
 import streamlit as st
-from functions import functions
+from function import functions
 
 todos = functions.get_todos()
 

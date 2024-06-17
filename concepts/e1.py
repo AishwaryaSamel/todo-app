@@ -1,8 +1,8 @@
 #file handling for hundreds thousands millions of files
 import glob
 
-myfiles = glob.glob("files/*.txt")
-# print(myfiles)
+myfiles = glob.glob("../files/*.txt")
+print(myfiles)
 
 for filepath in myfiles:
     with open(filepath,'r') as file:

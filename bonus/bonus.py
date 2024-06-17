@@ -203,7 +203,7 @@
 # else:
 #     print("kid can use the slide")
 
-#bonus 13 decoupling functions
+#bonus 13 decoupling function
 # feet_inches = input("Enter feet and inches: ")
 #
 # def parse(feet_inches):
